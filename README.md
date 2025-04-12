@@ -230,3 +230,28 @@ git add README.md
 
 git commit -m "Agregando archivo README.md con instrucciones del proyecto"
 git push
+
+#PD: desde la carpeta "k8s-manifiesto"
+agregamos los archivos .yaml a git
+
+cd ~/devops-k8s-sitio-estatico/k8s-manifiesto
+git add deployment.yaml
+git commit -m "Agregando archivo deployment.yaml "
+git push -u origin master
+
+git add service.yaml
+git commit -m "Agregando archivo service"
+git push
+
+git add ingress.yaml
+git commit -m "Agregando archivo ingress.yaml "
+git push
+
+git add persistent-volumen.yaml
+git commit -m "Agregando archivo persistent-volumen"
+git push
+
+git add persistent-volumen-claim.yaml
+git commit -m "Agregando archivo persistent-volumen-claim"
+git push
+
